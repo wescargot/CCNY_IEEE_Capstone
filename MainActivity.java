@@ -42,6 +42,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         photoImage = (ImageView) findViewById(R.id.photo_image);
+        photoImage.setImageDrawable(null);
 
         Button callCameraButton = (Button)
                 findViewById(R.id.button_callcamera);
